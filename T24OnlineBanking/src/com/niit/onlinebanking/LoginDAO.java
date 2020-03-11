@@ -24,4 +24,8 @@ public class LoginDAO {
 	        }
 	        return st;                 
 	    }   
+	public static void main(String args[]){
+LoginDAO ld=new LoginDAO();
+		ld.checkUser(12,12);
+	}
 }
